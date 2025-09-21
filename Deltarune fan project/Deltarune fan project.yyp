@@ -64,6 +64,7 @@
     {"id":{"name":"rm_Kris_Asrial_room","path":"rooms/rm_Kris_Asrial_room/rm_Kris_Asrial_room.yy",},},
     {"id":{"name":"rm_Main_room","path":"rooms/rm_Main_room/rm_Main_room.yy",},},
     {"id":{"name":"rm_Title","path":"rooms/rm_Title/rm_Title.yy",},},
+    {"id":{"name":"Room9","path":"rooms/Room9/Room9.yy",},},
     {"id":{"name":"hometown","path":"sprites/hometown/hometown.yy",},},
     {"id":{"name":"Spr_blanket","path":"sprites/Spr_blanket/Spr_blanket.yy",},},
     {"id":{"name":"Spr_buttons_continue","path":"sprites/Spr_buttons_continue/Spr_buttons_continue.yy",},},
@@ -105,6 +106,7 @@
     {"roomId":{"name":"rm_Bathroom","path":"rooms/rm_Bathroom/rm_Bathroom.yy",},},
     {"roomId":{"name":"rm_Home_exterior","path":"rooms/rm_Home_exterior/rm_Home_exterior.yy",},},
     {"roomId":{"name":"rm_Hometown_street_1","path":"rooms/rm_Hometown_street_1/rm_Hometown_street_1.yy",},},
+    {"roomId":{"name":"Room9","path":"rooms/Room9/Room9.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[
