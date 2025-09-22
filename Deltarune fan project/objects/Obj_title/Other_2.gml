@@ -16,9 +16,9 @@ if(file_exists("Inland_Empire.ini")){
 	instance_create_depth(160, 180, 100, Obj_buttons_continue)
 	
 	ini_open("Inland_Empire.ini")
-	global.start_room = ini_read_string("save1", "room", rm_Kris_Asrial_room)
-	global.start_x = ini_read_real("save1", "x", 160)
-	global.start_y = ini_read_real("save1", "y", 120)
+	global.start_room = ini_read_string("Save1", "room", rm_Kris_Asrial_room)
+	global.start_x = ini_read_real("Save1", "x", 160)
+	global.start_y = ini_read_real("Save1", "y", 120)
 	ini_close()
 
 } else{
