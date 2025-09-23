@@ -10,6 +10,7 @@ global.new_game = false
 global.rm0 = 0
 global.rm1 = 1
 global.rm2 = 2
+global.rm3 = 3
 
 if(file_exists("Inland_Empire.ini")){
 	
@@ -27,6 +28,9 @@ if(file_exists("Inland_Empire.ini")){
 	
 }
 //repeat next section for every new save star
+//room load order determins number for some reason
+//remember to throw order them so save rooms are at the top so its a consistant number
+//VVV ONLY FOR SAVE ROOMS VVV
 if global.start_room = 0 {
 	
 	global.start_room = rm_dev_test_room
@@ -38,6 +42,11 @@ if global.start_room = 1 {
 	
 }
 if global.start_room = 2 {
+	
+	global.start_room = rm_Hall
+	
+}
+if global.start_room = 3 {
 	
 	global.start_room = rm_Main_room
 	
