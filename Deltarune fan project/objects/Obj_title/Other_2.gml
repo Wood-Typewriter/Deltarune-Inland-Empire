@@ -4,7 +4,13 @@ global.start_x = 160
 global.start_y = 120
 
 global.new_game = false
-//global.title_buttons = false
+
+global.party_exists = false
+global.entered_new_room = false
+
+//party ids
+global.p0 = 0 // Susie
+global.p1 = 1 // Ralsie
 
 //room Ids, add more as i make rooms
 global.rm0 = 0
@@ -20,6 +26,10 @@ if(file_exists("Inland_Empire.ini")){
 	global.start_room = ini_read_string("Save1", "room", rm_Kris_Asrial_room)
 	global.start_x = ini_read_real("Save1", "x", 160)
 	global.start_y = ini_read_real("Save1", "y", 120)
+	global.party_member_1 = ini_read_real("Save1", "Party1", global.p0)
+	global.party_member_2 = ini_read_real("Save1", "Party2", global.p1)
+	global.party_member_1_follow_distance = ini_read_real("Save1", "Party1 Distance", 40)
+	global.party_member_2_follow_distance = ini_read_real("Save1", "Party2 Distance", 80)
 	ini_close()
 
 } else{
@@ -49,5 +59,17 @@ if global.start_room = 2 {
 if global.start_room = 3 {
 	
 	global.start_room = rm_Main_room
+	
+}
+
+//party members
+if global.party_member_1 = 0 {
+	
+	global.party_member_1 = Obj_Susie
+	
+}
+if global.party_member_2 = 1 {
+	
+	global.party_member_2 = Obj_Ralsie
 	
 }

@@ -1,16 +1,13 @@
 {
   "$GMObject":"",
-  "%Name":"Obj_title",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":2,"eventType":7,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"Obj_Susie",
+  "eventList":[],
   "managed":true,
-  "name":"Obj_title",
+  "name":"Obj_Susie",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"Character Obj",
+    "path":"folders/Objects/Character Obj.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -31,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Spr_title",
-    "path":"sprites/Spr_title/Spr_title.yy",
+    "name":"Spr_susie_L_wd",
+    "path":"sprites/Spr_susie_L_wd/Spr_susie_L_wd.yy",
   },
   "spriteMaskId":null,
   "visible":true,
