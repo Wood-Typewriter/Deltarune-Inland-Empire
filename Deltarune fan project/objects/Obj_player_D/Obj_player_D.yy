@@ -1,6 +1,6 @@
 {
   "$GMObject":"",
-  "%Name":"Obj_player",
+  "%Name":"Obj_player_D",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
@@ -10,7 +10,7 @@
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":40,"eventType":9,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"Obj_player",
+  "name":"Obj_player_D",
   "overriddenProperties":[],
   "parent":{
     "name":"Character Obj",
@@ -35,8 +35,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Spr_kris_L_wd",
-    "path":"sprites/Spr_kris_L_wd/Spr_kris_L_wd.yy",
+    "name":"Spr_kris_D_wd",
+    "path":"sprites/Spr_kris_D_wd/Spr_kris_D_wd.yy",
   },
   "spriteMaskId":{
     "name":"Spr_kris_L_wd",

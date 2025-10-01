@@ -1,23 +1,23 @@
 room_goto(target_room)
-Obj_player.x = target_x
-Obj_player.y = target_y
+Obj_player_L.x = target_x
+Obj_player_L.y = target_y
 
 //facing
 
 if facing = 0{
-	Obj_player.sprite_index = Spr_kris_L_wr
+	Obj_player_L.sprite_index = Spr_kris_L_wr
 }
 
 if facing = 1{
-	Obj_player.sprite_index = Spr_kris_L_wl
+	Obj_player_L.sprite_index = Spr_kris_L_wl
 }
 
 if facing = 2{
-	Obj_player.sprite_index = Spr_kris_L_wd
+	Obj_player_L.sprite_index = Spr_kris_L_wd
 }
 
 if facing = 3{
-	Obj_player.sprite_index = Spr_kris_L_wu
+	Obj_player_L.sprite_index = Spr_kris_L_wu
 }
 
 //fade out

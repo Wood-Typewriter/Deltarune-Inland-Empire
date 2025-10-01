@@ -1,9 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"Obj_Ralsie",
+  "%Name":"Obj_Susie_L",
   "eventList":[],
   "managed":true,
-  "name":"Obj_Ralsie",
+  "name":"Obj_Susie_L",
   "overriddenProperties":[],
   "parent":{
     "name":"Character Obj",
@@ -28,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Spr_ralsie_wd",
-    "path":"sprites/Spr_ralsie_wd/Spr_ralsie_wd.yy",
+    "name":"Spr_susie_L_wd",
+    "path":"sprites/Spr_susie_L_wd/Spr_susie_L_wd.yy",
   },
   "spriteMaskId":null,
   "visible":true,

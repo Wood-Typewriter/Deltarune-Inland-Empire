@@ -9,8 +9,9 @@ global.party_exists = false
 global.entered_new_room = false
 
 //party ids
-global.p0 = 0 // Susie
+global.p0 = 0 // Susie Light world
 global.p1 = 1 // Ralsie
+global.p3 = 2 // Susie Dark world
 
 //room Ids, add more as i make rooms
 global.rm0 = 0
@@ -65,11 +66,16 @@ if global.start_room = 3 {
 //party members
 if global.party_member_1 = 0 {
 	
-	global.party_member_1 = Obj_Susie
+	global.party_member_1 = Obj_Susie_L
 	
 }
 if global.party_member_2 = 1 {
 	
 	global.party_member_2 = Obj_Ralsie
+	
+}
+if global.party_member_1 = 2 {
+	
+	global.party_member_1 = Obj_Susie_D
 	
 }
