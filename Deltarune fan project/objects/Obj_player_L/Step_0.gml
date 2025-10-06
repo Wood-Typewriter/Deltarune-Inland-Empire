@@ -90,7 +90,7 @@ if global.party_exists == true{
 	
 	if (x != xprevious or y != yprevious) and !instance_exists(Obj_fade){
 		
-		for(follow_pos = follow_points - 1 follow_pos > 0 follow_pos--){
+		for(follow_pos = follow_points - 1; follow_pos > 0; follow_pos--){
 			
 		player_x[follow_points] = player_x[follow_pos-1]
 		player_y[follow_points] = player_y[follow_pos-1] 

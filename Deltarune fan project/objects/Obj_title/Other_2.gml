@@ -11,7 +11,7 @@ global.entered_new_room = false
 //party ids
 global.p0 = 0 // Susie Light world
 global.p1 = 1 // Ralsie
-global.p3 = 2 // Susie Dark world
+global.p2 = 2 // Susie Dark world
 
 //room Ids, add more as i make rooms
 global.rm0 = 0

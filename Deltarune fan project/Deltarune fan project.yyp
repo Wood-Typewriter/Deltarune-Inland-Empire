@@ -76,6 +76,7 @@
     {"id":{"name":"rm_Kris_Asrial_room","path":"rooms/rm_Kris_Asrial_room/rm_Kris_Asrial_room.yy",},},
     {"id":{"name":"rm_Main_room","path":"rooms/rm_Main_room/rm_Main_room.yy",},},
     {"id":{"name":"rm_Title","path":"rooms/rm_Title/rm_Title.yy",},},
+    {"id":{"name":"Scr_party","path":"scripts/Scr_party/Scr_party.yy",},},
     {"id":{"name":"hometown","path":"sprites/hometown/hometown.yy",},},
     {"id":{"name":"Spr_blanket","path":"sprites/Spr_blanket/Spr_blanket.yy",},},
     {"id":{"name":"Spr_buttons_continue","path":"sprites/Spr_buttons_continue/Spr_buttons_continue.yy",},},
