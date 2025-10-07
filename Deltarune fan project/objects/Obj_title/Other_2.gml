@@ -31,6 +31,7 @@ if(file_exists("Inland_Empire.ini")){
 	global.party_member_2 = ini_read_real("Save1", "Party2", global.p1)
 	global.party_member_1_follow_distance = ini_read_real("Save1", "Party1 Distance", 40)
 	global.party_member_2_follow_distance = ini_read_real("Save1", "Party2 Distance", 80)
+	global.party_exists = ini_read_string("Save1", "Party Exists", "false")
 	ini_close()
 
 } else{
@@ -63,19 +64,21 @@ if global.start_room = 3 {
 	
 }
 
-//party members
-if global.party_member_1 = 0 {
+//party members assignment section
+if global.party_exists = true{
+	if global.party_member_1 = 0 {
 	
-	global.party_member_1 = Obj_Susie_L
+		global.party_member_1 = Obj_Susie_L
 	
-}
-if global.party_member_2 = 1 {
+	}
+	if global.party_member_2 = 1 {
 	
-	global.party_member_2 = Obj_Ralsie
+		global.party_member_2 = Obj_Ralsie
 	
-}
-if global.party_member_1 = 2 {
+	}
+	if global.party_member_1 = 2 {
 	
-	global.party_member_1 = Obj_Susie_D
+		global.party_member_1 = Obj_Susie_D
 	
+	}
 }

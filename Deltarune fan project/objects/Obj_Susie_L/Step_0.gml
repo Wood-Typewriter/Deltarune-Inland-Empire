@@ -83,6 +83,7 @@ if inparty = true and Obj_player_L.follow_points > 0{
 		}
 	}
 //^^^ this section isn't needed i don't think cut later
+// no wait, i could use this for dark world susie
 	if x != xprevious or y != yprevious{
 		image_speed = 1
 	} else{

@@ -4,6 +4,13 @@ function Scr_party(party_member_1, party_member_2, disband){
 		
 		global.party_exists = true
 		
+		if !instance_exists(party_member_1){
+			instance_create_layer(x, y, "Player", party_member_1)
+		}
+		if !instance_exists(party_member_2){
+			instance_create_layer(x, y, "Player", party_member_2)
+		}
+		
 		global.party_member_1 = party_member_1
 		global.party_member_2 = party_member_2
 		global.party_member_1_follow_distance = 20

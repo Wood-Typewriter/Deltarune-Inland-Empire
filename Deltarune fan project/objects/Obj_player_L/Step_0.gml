@@ -92,8 +92,8 @@ if global.party_exists == true{
 		
 		for(follow_pos = follow_points - 1; follow_pos > 0; follow_pos--){
 			
-		player_x[follow_points] = player_x[follow_pos-1]
-		player_y[follow_points] = player_y[follow_pos-1] 
+		player_x[follow_pos] = player_x[follow_pos-1]
+		player_y[follow_pos] = player_y[follow_pos-1] 
 		
 		past_facing[follow_pos] = past_facing[follow_pos-1]
 		
