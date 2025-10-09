@@ -20,77 +20,52 @@ if inparty = true and Obj_player_L.follow_points > 0{
 	
 	if global.entered_new_room = true{
 	
-	if global.new_room_facing = Spr_kris_L_wd{
-		sprite_index = Spr_ralsie_wd
-		new_room_facing = sprite_index
-	}
-	if global.new_room_facing = Spr_kris_L_wl{
-		sprite_index = Spr_ralsie_wl
-		new_room_facing = sprite_index
-	}
-	if global.new_room_facing = Spr_kris_L_wr{
-		sprite_index = Spr_ralsie_wr
-		new_room_facing = sprite_index
-	}
-	if global.new_room_facing = Spr_kris_L_wu{
-		sprite_index = Spr_ralsie_wu
-		new_room_facing = sprite_index
-	}
-	
-	if sprite_index != new_room_facing{
+		if global.new_room_facing = Spr_kris_L_wd{
+			sprite_index = Spr_ralsie_wd
+			new_room_facing = sprite_index
+		}
+		if global.new_room_facing = Spr_kris_L_wl{
+			sprite_index = Spr_ralsie_wl
+			new_room_facing = sprite_index
+		}
+		if global.new_room_facing = Spr_kris_L_wr{
+			sprite_index = Spr_ralsie_wr
+			new_room_facing = sprite_index
+		}
+		if global.new_room_facing = Spr_kris_L_wu{
+			sprite_index = Spr_ralsie_wu
+			new_room_facing = sprite_index
+		}
+		
+		if sprite_index != new_room_facing{
 			global.entered_new_room = false
+		}
 	}
 	
-	}
-	
-	if global.party_member_1 = self{
-		switch(Obj_player_L.past_facing[global.party_member_1_follow_distance]){
-		
-			case Spr_kris_L_wd: sprite_index = Spr_ralsie_wd; break;
-			case Spr_kris_L_wl: sprite_index = Spr_ralsie_wl; break;
-			case Spr_kris_L_wr: sprite_index = Spr_ralsie_wr; break;
-			case Spr_kris_L_wu: sprite_index = Spr_ralsie_wu; break;
-		
-	}
-	
-	if Obj_player_L.player_x[global.party_member_1_follow_distance] != 0{
-		x=Obj_player_L.player_x[global.party_member_1_follow_distance]
-		y=Obj_player_L.player_y[global.party_member_1_follow_distance]
-	} else{
-		if instance_exists(Obj_fade){
-			x = Obj_fade.target_x
-			y = Obj_fade.target_y
-			}
-		} //VVV this section might not be needed
-	} else {
-		switch(Obj_player_L.past_facing[global.party_member_2_follow_distance]){
-		
+	// RALSIE ONLY FOLLOWS AS PARTY_MEMBER_2
+	switch(Obj_player_L.past_facing[global.party_member_2_follow_distance]){
 		case Spr_kris_L_wd: sprite_index = Spr_ralsie_wd; break;
 		case Spr_kris_L_wl: sprite_index = Spr_ralsie_wl; break;
 		case Spr_kris_L_wr: sprite_index = Spr_ralsie_wr; break;
 		case Spr_kris_L_wu: sprite_index = Spr_ralsie_wu; break;
-		
 	}
 
-		if Obj_player_L.player_x[global.party_member_2_follow_distance] != 0{
-			x=Obj_player_L.player_x[global.party_member_2_follow_distance]
-		y=Obj_player_L.player_y[global.party_member_2_follow_distance]
+	if Obj_player_L.player_x[global.party_member_2_follow_distance] != 0{
+		x = Obj_player_L.player_x[global.party_member_2_follow_distance]
+		y = Obj_player_L.player_y[global.party_member_2_follow_distance]
 	} else{
-			if instance_exists(Obj_fade){
-				x = Obj_fade.target_x
-				y = Obj_fade.target_y
-			}
+		if instance_exists(Obj_fade){
+			x = Obj_fade.target_x
+			y = Obj_fade.target_y
 		}
 	}
-//^^^ this section isn't needed i don't think cut later
-// no wait, i could use this for dark world susie
+
 	if x != xprevious or y != yprevious{
 		image_speed = 1
 	} else{
 		image_speed = 0
 		image_index = 0
 	}
-
 }
 	
 if inparty = false{
