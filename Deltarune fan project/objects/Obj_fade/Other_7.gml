@@ -13,7 +13,7 @@ if global.party_exists = true{
 	Obj_player_L.past_facing = -1
 	Obj_player_L.follow_points = 100
 	
-	for (Obj_player_L.follow_pos = Obj_player_L.follow_points -1; Obj_Susie_L.follow_pos >= 0; Obj_Susie_L.follow_pos--){
+	for (Obj_player_L.follow_pos = Obj_player_L.follow_points -1; Obj_player_L.follow_pos >= 0; Obj_player_L.follow_pos--){
 		
 		Obj_player_L.player_x[Obj_player_L.follow_pos] = x
 		Obj_player_L.player_y[Obj_player_L.follow_pos] = y

@@ -20,6 +20,7 @@
     {"name":"inst_3105B57C","path":"rooms/rm_Kris_Asrial_room/rm_Kris_Asrial_room.yy",},
     {"name":"inst_7022E977","path":"rooms/rm_Kris_Asrial_room/rm_Kris_Asrial_room.yy",},
     {"name":"inst_6926D79A","path":"rooms/rm_Kris_Asrial_room/rm_Kris_Asrial_room.yy",},
+    {"name":"inst_3CB461E9","path":"rooms/rm_Kris_Asrial_room/rm_Kris_Asrial_room.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -43,6 +44,7 @@
         {"$GMRInstance":"v2","%Name":"inst_7EC7AC09","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_7EC7AC09","objectId":{"name":"Obj_collider","path":"objects/Obj_collider/Obj_collider.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":14.0,"scaleY":0.95,"x":160.0,"y":91.5,},
         {"$GMRInstance":"v2","%Name":"inst_4F05C9A3","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_4F05C9A3","objectId":{"name":"Obj_collider","path":"objects/Obj_collider/Obj_collider.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.01978234,"scaleX":2.5203,"scaleY":0.19950485,"x":65.63903,"y":198.99626,},
         {"$GMRInstance":"v2","%Name":"inst_7022E977","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_7022E977","objectId":{"name":"Obj_collider","path":"objects/Obj_collider/Obj_collider.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":4.75394,"scaleY":1.0,"x":162.9606,"y":250.0,},
+        {"$GMRInstance":"v2","%Name":"inst_3CB461E9","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_3CB461E9","objectId":{"name":"Obj_party_tester","path":"objects/Obj_party_tester/Obj_party_tester.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":220.0,"y":180.0,},
       ],"layers":[],"name":"collisions","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRAssetLayer":"","%Name":"furniture_front","assets":[
         {"$GMRSpriteGraphic":"v1","%Name":"graphic_2D1582AE","animationSpeed":1.0,"colour":4294967295,"frozen":false,"headPosition":0.0,"ignore":false,"inheritedItemId":null,"inheritItemSettings":false,"name":"graphic_2D1582AE","resourceType":"GMRSpriteGraphic","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"spriteId":{"name":"Spr_Desk","path":"sprites/Spr_Desk/Spr_Desk.yy",},"x":69.0,"y":184.0,},
