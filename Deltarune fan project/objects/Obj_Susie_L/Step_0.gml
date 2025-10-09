@@ -42,7 +42,7 @@ if inparty = true and Obj_player_L.follow_points > 0{
 		}
 	}
 	
-	// SUSIE ONLY FOLLOWS AS PARTY_MEMBER_1
+	
 	switch(Obj_player_L.past_facing[global.party_member_1_follow_distance]){
 		case Spr_kris_L_wd: sprite_index = Spr_susie_L_wd; break;
 		case Spr_kris_L_wl: sprite_index = Spr_susie_L_wl; break;
@@ -53,6 +53,7 @@ if inparty = true and Obj_player_L.follow_points > 0{
 	if Obj_player_L.player_x[global.party_member_1_follow_distance] != 0{
 		x = Obj_player_L.player_x[global.party_member_1_follow_distance]
 		y = Obj_player_L.player_y[global.party_member_1_follow_distance]
+		
 	} else{
 		if instance_exists(Obj_fade){
 			x = Obj_fade.target_x

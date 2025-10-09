@@ -14,7 +14,7 @@ if(place_meeting(x, y, Obj_player_L)){
 			ini_write_real("Save1", "Party1", global.p0)
 		}
 		if global.party_member_2 = Obj_Ralsie{
-			ini_write_real("Save1", "Party1", global.p1)
+			ini_write_real("Save1", "Party2", global.p1)
 		}
 		if global.party_member_1 = Obj_Susie_D{
 			ini_write_real("Save1", "Party1", global.p2)

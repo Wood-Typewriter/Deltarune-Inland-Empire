@@ -33,5 +33,6 @@ for (follow_pos = follow_points -1; follow_pos >= 0; follow_pos--){
 	player_x[follow_pos] = x 
 	player_y[follow_pos] = y 
 	
+	
 	past_facing[follow_pos] = sprite_index
 }
