@@ -10,8 +10,8 @@ if inparty = true{
 }
 
 //anti shake code
-x[0] = round(x[0.1]);
-y[0] = round(y[0.1]);
+x[0] = round(x[x]);
+y[0] = round(y[y]);
 
 // party follow
 if inparty = true and Obj_player_L.follow_points > 0{
@@ -42,7 +42,7 @@ if inparty = true and Obj_player_L.follow_points > 0{
 		}
 	}
 	
-	//if global.party_member_2 = Obj_Ralsie{
+	//if global.party_member_1 = Obj_Susie_L{
 	switch(Obj_player_L.past_facing[global.party_member_1_follow_distance]){
 		
 		case Spr_kris_L_wd: sprite_index = Spr_susie_L_wd; break;
@@ -54,6 +54,7 @@ if inparty = true and Obj_player_L.follow_points > 0{
 	if Obj_player_L.player_x[global.party_member_1_follow_distance] != 0{
 		x = Obj_player_L.player_x[global.party_member_1_follow_distance]
 		y = Obj_player_L.player_y[global.party_member_1_follow_distance]
+		
 		
 	} else{
 		if instance_exists(Obj_fade){

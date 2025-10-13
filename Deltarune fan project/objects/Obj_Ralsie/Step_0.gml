@@ -10,8 +10,8 @@ if inparty = true{
 }
 
 //anti shake code
-x[0] = round(x[0.1]);
-y[0] = round(y[0.1]);
+x[0] = round(x[x]);
+y[0] = round(y[y]);
 
 // party follow
 if inparty = true and Obj_player_L.follow_points > 0{

@@ -50,8 +50,8 @@ if xspeed !=0 or yspeed !=0 {
 }
 
 //anti shake code
-x[0] = round(x[0.1]);
-y[0] = round(y[0.1]);
+x[0] = round(x[x]);
+y[0] = round(y[y]);
 
 //keeping direction of sprite
 if(sprite_index =Spr_kris_L_wd){
