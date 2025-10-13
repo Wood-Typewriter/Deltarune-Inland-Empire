@@ -42,8 +42,9 @@ if inparty = true and Obj_player_L.follow_points > 0{
 		}
 	}
 	
-	// RALSIE ONLY FOLLOWS AS PARTY_MEMBER_2
+	//if global.party_member_2 = Obj_Ralsie{
 	switch(Obj_player_L.past_facing[global.party_member_2_follow_distance]){
+		
 		case Spr_kris_L_wd: sprite_index = Spr_ralsie_wd; break;
 		case Spr_kris_L_wl: sprite_index = Spr_ralsie_wl; break;
 		case Spr_kris_L_wr: sprite_index = Spr_ralsie_wr; break;
@@ -67,7 +68,7 @@ if inparty = true and Obj_player_L.follow_points > 0{
 		image_index = 0
 	}
 }
-	
+	//} //(for obj_ralsie if statement)
 if inparty = false{
 
 	image_speed = 0

@@ -9,6 +9,8 @@ global.party_exists = false
 global.entered_new_room = false
 
 //party ids
+global.pn2 = -2 // place holder 2 (if needed)
+global.pn1 = -1 // place holder 1 (if needed)
 global.p0 = 0 // Susie Light world
 global.p1 = 1 // Ralsie
 global.p2 = 2 // Susie Dark world
@@ -66,6 +68,16 @@ if global.start_room = 3 {
 
 //party members assignment section
 if global.party_exists = true{
+		if global.party_member_2 = -2 {
+	
+		global.party_member_1 = Obj_placeholder2
+	
+	}
+		if global.party_member_1 = -1 {
+	
+		global.party_member_1 = Obj_placeholder1
+	
+	}
 	if global.party_member_1 = 0 {
 	
 		global.party_member_1 = Obj_Susie_L

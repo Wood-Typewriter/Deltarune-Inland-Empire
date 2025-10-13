@@ -26,7 +26,7 @@
   ],
   "name":"Spr_susie_L_wd",
   "nineSlice":null,
-  "origin":4,
+  "origin":9,
   "parent":{
     "name":"Susie",
     "path":"folders/Sprites/Characters/Main Characters/Susie.yy",
