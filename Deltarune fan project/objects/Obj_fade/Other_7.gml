@@ -15,8 +15,8 @@ if global.party_exists = true{
 	
 	for (Obj_player_L.follow_pos = Obj_player_L.follow_points -1; Obj_player_L.follow_pos >= 0; Obj_player_L.follow_pos--){
 		
-		Obj_player_L.player_x[Obj_player_L.follow_pos] = x
-		Obj_player_L.player_y[Obj_player_L.follow_pos] = y
+		Obj_player_L.player_x[Obj_player_L.follow_pos] = target_x
+		Obj_player_L.player_y[Obj_player_L.follow_pos] = target_y
 		
 	}
 	

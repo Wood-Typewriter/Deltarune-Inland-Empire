@@ -86,7 +86,7 @@ if place_meeting(x, y, Obj_save){
 }
 
 //update postion for party_follow
-if global.party_exists == true{
+
 	
 	if (x != xprevious or y != yprevious) and !instance_exists(Obj_fade){
 		
@@ -105,14 +105,3 @@ if global.party_exists == true{
 	}
 	
 	
-}
-
-if instance_exists(Obj_fade) and Obj_fade.party_warp = true{
-	
-	instance_create_layer(x, y, "Player", global.party_member_1)
-	instance_create_layer(x, y, "Player", global.party_member_2)
-	global.party_member_1.inparty =true
-	global.party_member_2.inparty =true
-	Obj_fade.party_warp = false
-	
-}
