@@ -8,6 +8,19 @@ global.new_game = false
 global.party_exists = false
 global.entered_new_room = false
 
+//control defaults
+global.selectbutton = ord("Z")
+global.cancelbutton = ord("X")
+global.sprintbutton = ord("X")
+global.menubutton = ord("C")
+global.upbutton = ord("W")
+global.downbutton = ord("S")
+global.leftbutton = ord("A")
+global.rightbutton = ord("D")
+
+//update controls
+Scr_update_controls()
+
 //party ids
 global.pn2 = -2 // place holder 2 (if needed)
 global.pn1 = -1 // place holder 1 (if needed)
