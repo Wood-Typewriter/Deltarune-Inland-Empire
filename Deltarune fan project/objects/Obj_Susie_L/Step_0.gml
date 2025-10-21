@@ -9,6 +9,20 @@ if inparty = true{
 	sprite_index = Spr_susie_L_wu
 }
 
+//step when move tapped
+if global.upbuttonpressed1{
+	image_index = 1
+}
+if global.downbuttonpressed1{
+	image_index = 1
+}
+if global.leftbuttonpressed1{
+	image_index = 1
+}
+if global.rightbuttonpressed1{
+	image_index = 1
+}
+
 //anti shake code
 x = round(x);
 y = round(y);

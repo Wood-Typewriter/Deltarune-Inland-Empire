@@ -1,8 +1,8 @@
 //controls
-var up_key = keyboard_check(vk_up)
-var down_key = keyboard_check(vk_down)
-var left_key = keyboard_check(vk_left)
-var right_key = keyboard_check(vk_right)
+var up_key = global.upbuttonpressed
+var down_key = global.downbuttonpressed
+var left_key = global.leftbuttonpressed
+var right_key = global.rightbuttonpressed
 
 //movement
 if keyboard_check(vk_shift) or keyboard_check(ord("X")){
@@ -47,6 +47,20 @@ if xspeed !=0 or yspeed !=0 {
 } else{
 	image_speed = 0
 	image_index = 0
+}
+
+//step when move tapped
+if global.upbuttonpressed1{
+	image_index = 1
+}
+if global.downbuttonpressed1{
+	image_index = 1
+}
+if global.leftbuttonpressed1{
+	image_index = 1
+}
+if global.rightbuttonpressed1{
+	image_index = 1
 }
 
 //anti shake code

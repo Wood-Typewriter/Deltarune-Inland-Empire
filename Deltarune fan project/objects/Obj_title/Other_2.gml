@@ -80,6 +80,7 @@ if global.start_room = 3 {
 }
 
 //party members assignment section
+	//vvv redundant never going to use vvv
 if global.party_exists = true{
 		if global.party_member_2 = -2 {
 	
@@ -89,7 +90,7 @@ if global.party_exists = true{
 		if global.party_member_1 = -1 {
 	
 		global.party_member_1 = Obj_placeholder1
-	
+	//^^^ redundant but not getting rid of it unless it causes problems somehow ^^^
 	}
 	if global.party_member_1 = 0 {
 	
