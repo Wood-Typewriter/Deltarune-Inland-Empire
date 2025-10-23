@@ -25,3 +25,57 @@ if menu = 1{
 		selected = 0
 	}
 }
+//menu 2
+if menu = 2{
+	//controls
+	if selected = 1 and global.selectbuttonpressed{
+		menu = 3
+		selected = 0
+		timer = 1
+	}
+	//canel 
+	if keyboard_check_pressed(global.cancelbutton){
+		menu = 1
+		selected = 0
+	}
+}
+
+//controls
+if global.downbuttonpressed1{
+	selected++
+}
+if global.upbuttonpressed1{
+	selected--
+}
+if menu = 1{ // first startup
+	if selected < 0 {
+		selected = 2
+	}
+	if selected > 2{
+		selected = 0
+	}
+}
+if menu = 2{ // settings
+	if selected < 0 {
+		selected = 1
+	}
+	if selected > 1{
+		selected = 0
+	}
+}
+if menu = 3{ //
+	if selected < 0 {
+		selected = 7
+	}
+	if selected > 7{
+		selected = 0
+	}
+}
+if menu = 4{ //
+	if selected < 0 {
+		selected = 25
+	}
+	if selected > 25{
+		selected = 0
+	}
+}
