@@ -10,7 +10,7 @@ x = round(x);
 y = round(y);
 
 
-//menu1
+//menu 1 start
 if menu = 1{
 	//start save
 	if(selected = 0 and global.selectbuttonpressed){
@@ -25,7 +25,7 @@ if menu = 1{
 		selected = 0
 	}
 }
-//menu 2
+//menu 2 setting
 if menu = 2{
 	//controls
 	if selected = 1 and global.selectbuttonpressed{
@@ -33,11 +33,160 @@ if menu = 2{
 		selected = 0
 		timer = 1
 	}
-	//canel 
+	//cancel 
 	if keyboard_check_pressed(global.cancelbutton){
 		menu = 1
 		selected = 0
 	}
+}
+//menu 3 controls
+if menu = 3{
+	if timer <= 0 {
+		if selected = 0 and global.selectbuttonpressed{
+			control = 0
+			menu = 4
+			selected = 0
+			letter = Obj_title.selectkey
+			timer2 = 1
+		}
+	}
+	timer--
+	if selected = 1 and global.selectbuttonpressed{
+		control = 0
+			menu = 4
+			selected = 0
+			letter = Obj_title.cancelkey
+			timer2 = 1
+	}
+		timer--
+	if selected = 2 and global.selectbuttonpressed{
+		control = 0
+			menu = 4
+			selected = 0
+			letter = Obj_title.sprintkey
+			timer2 = 1
+	}
+	if selected = 3 and global.selectbuttonpressed{
+		control = 0
+			menu = 4
+			selected = 0
+			letter = Obj_title.menukey
+			timer2 = 1
+	}
+	if selected = 4 and global.selectbuttonpressed{
+		control = 0
+			menu = 4
+			selected = 0
+			letter = Obj_title.upkey
+			timer2 = 1
+	}
+	if selected = 5 and global.selectbuttonpressed{
+		control = 0
+			menu = 4
+			selected = 0
+			letter = Obj_title.downkey
+			timer2 = 1
+	}
+	if selected = 6 and global.selectbuttonpressed{
+		control = 0
+			menu = 4
+			selected = 0
+			letter = Obj_title.leftkey
+			timer2 = 1
+	}
+	if selected = 7 and global.selectbuttonpressed{
+		control = 0
+			menu = 4
+			selected = 0
+			letter = Obj_title.rightkey
+			timer2 = 1
+	}
+	if keyboard_check_pressed(global.cancelbutton){
+		menu = 2
+		selected = 0
+	}
+}
+// menu 4 key select
+if menu = 4 and timer2 <= 0 {
+	if selected = 0 and global.selectbuttonpressed{
+		letter = "A"
+	}
+	if selected = 1 and global.selectbuttonpressed{
+		letter = "B"
+	}
+	if selected = 2 and global.selectbuttonpressed{
+		letter = "C"
+	}
+	if selected = 3 and global.selectbuttonpressed{
+		letter = "D"
+	}
+	if selected = 4 and global.selectbuttonpressed{
+		letter = "E"
+	}
+	if selected = 5 and global.selectbuttonpressed{
+		letter = "F"
+	}
+	if selected = 6 and global.selectbuttonpressed{
+		letter = "G"
+	}
+	if selected = 7 and global.selectbuttonpressed{
+		letter = "H"
+	}
+	if selected = 8 and global.selectbuttonpressed{
+		letter = "I"
+	}
+	if selected = 9 and global.selectbuttonpressed{
+		letter = "J"
+	}
+	if selected = 10 and global.selectbuttonpressed{
+		letter = "K"
+	}
+	if selected = 11 and global.selectbuttonpressed{
+		letter = "L"
+	}
+	if selected = 12 and global.selectbuttonpressed{
+		letter = "M"
+	}
+	if selected = 13 and global.selectbuttonpressed{
+		letter = "N"
+	}
+	if selected = 14 and global.selectbuttonpressed{
+		letter = "O"
+	}
+	if selected = 15 and global.selectbuttonpressed{
+		letter = "P"
+	}
+	if selected = 16 and global.selectbuttonpressed{
+		letter = "Q"
+	}
+	if selected = 17 and global.selectbuttonpressed{
+		letter = "R"
+	}
+	if selected = 18 and global.selectbuttonpressed{
+		letter = "S"
+	}
+	if selected = 19 and global.selectbuttonpressed{
+		letter = "T"
+	}
+	if selected = 20 and global.selectbuttonpressed{
+		letter = "U"
+	}
+	if selected = 21 and global.selectbuttonpressed{
+		letter = "V"
+	}
+	if selected = 22 and global.selectbuttonpressed{
+		letter = "W"
+	}
+	if selected = 23 and global.selectbuttonpressed{
+		letter = "X"
+	}
+	if selected = 24 and global.selectbuttonpressed{
+		letter = "Y"
+	}
+	if selected = 25 and global.selectbuttonpressed{
+		letter = "Z"
+	}
+	
 }
 
 //controls

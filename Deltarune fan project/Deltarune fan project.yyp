@@ -130,6 +130,8 @@
     {"id":{"name":"Spr_title","path":"sprites/Spr_title/Spr_title.yy",},},
     {"id":{"name":"Spr_warp","path":"sprites/Spr_warp/Spr_warp.yy",},},
     {"id":{"name":"Title_background","path":"sprites/Title_background/Title_background.yy",},},
+    {"id":{"name":"well_animation","path":"sprites/well_animation/well_animation.yy",},},
+    {"id":{"name":"well","path":"sprites/well/well.yy",},},
     {"id":{"name":"TS_hometown","path":"tilesets/TS_hometown/TS_hometown.yy",},},
   ],
   "resourceType":"GMProject",

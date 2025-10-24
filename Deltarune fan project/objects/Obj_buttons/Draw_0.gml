@@ -29,37 +29,63 @@ if menu = 2 {
 	} else {
 		draw_set_color(c_white)
 	}
-	draw_text(x, y - 30, "Controls")
+	draw_text(x, y - 30, "Volume")
 		if selected = 1 {
 		draw_set_color(#FFFF00)
 	} else {
 		draw_set_color(c_white)
 	}
-	draw_text(x, y, "Valume")
+	draw_text(x, y, "Controls")
 }
+
 if menu = 3{
 	if selected = 0 {
 		draw_set_color(#FFFF00)
 	} else {
 		draw_set_color(c_white)
 	}
-	draw_text(x, y - 40, "Continue")
-	if selected = 0 {
+	draw_text(x - 65, y - 40, "Select - Enter/" + Obj_title.selectkey)
+	if selected = 1 {
 		draw_set_color(#FFFF00)
 	} else {
 		draw_set_color(c_white)
 	}
-	draw_text(x, y - 20, "New game")
-	if selected = 0 {
+	draw_text(x - 65, y - 20, "Cancel - " + Obj_title.cancelkey)
+	if selected = 2 {
 		draw_set_color(#FFFF00)
 	} else {
 		draw_set_color(c_white)
 	}
-	draw_text(x, y, "Settings")
-	if selected = 0 {
+	draw_text(x - 70, y, "Sprint - Shift/" + Obj_title.sprintkey)
+	if selected = 3 {
 		draw_set_color(#FFFF00)
 	} else {
 		draw_set_color(c_white)
 	}
-	draw_text(x, y + 20, "Exit")
+	draw_text(x - 65, y + 20, "Menu - " + Obj_title.menukey)
+	if selected = 4 {
+		draw_set_color(#FFFF00)
+	} else {
+		draw_set_color(c_white)
+	}
+	draw_text(x + 65, y - 40, "Up - Up Arrow/" + Obj_title.upkey)
+	if selected = 5 {
+		draw_set_color(#FFFF00)
+	} else {
+		draw_set_color(c_white)
+	}
+	draw_text(x + 65, y - 20, "Down - Down Arrow/" + Obj_title.downkey)
+	if selected = 6 {
+		draw_set_color(#FFFF00)
+	} else {
+		draw_set_color(c_white)
+	}
+	draw_text(x + 70, y, "Left - Left Arrow/" + Obj_title.leftkey)
+	if selected = 7 {
+		draw_set_color(#FFFF00)
+	} else {
+		draw_set_color(c_white)
+	}
+	draw_text(x + 65, y + 20, "Right - Right Arrow/" + Obj_title.rightkey)
+	
 }
