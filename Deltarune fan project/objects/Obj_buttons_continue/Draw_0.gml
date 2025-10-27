@@ -8,19 +8,25 @@ if menu = 1{
 	} else {
 		draw_set_color(c_white)
 	}
-	draw_text(x, y - 30, "Begin Game")
+	draw_text(x, y - 40, "Continue")
 	if selected = 1 {
 		draw_set_color(#FFFF00)
 	} else {
 		draw_set_color(c_white)
 	}
-	draw_text(x, y, "Settings")
+	draw_text(x, y - 20, "New Game")
 	if selected = 2 {
 		draw_set_color(#FFFF00)
 	} else {
 		draw_set_color(c_white)
 	}
-	draw_text(x, y + 30, "Exit")
+	draw_text(x, y, "Settings")
+	if selected = 3 {
+		draw_set_color(#FFFF00)
+	} else {
+		draw_set_color(c_white)
+	}
+	draw_text(x, y + 20, "Exit")
 }
 
 if menu = 2 {

@@ -52,54 +52,53 @@ if menu = 3{
 	}
 	timer--
 	if selected = 1 and global.selectbuttonpressed{
-		control = 0
-			menu = 4
-			selected = 0
-			letter = Obj_title.cancelkey
-			timer2 = 1
+		control = 1
+		menu = 4
+		selected = 0
+		letter = Obj_title.cancelkey
+		timer2 = 1
 	}
-		timer--
 	if selected = 2 and global.selectbuttonpressed{
-		control = 0
-			menu = 4
-			selected = 0
-			letter = Obj_title.sprintkey
-			timer2 = 1
+		control = 2
+		menu = 4
+		selected = 0
+		letter = Obj_title.sprintkey
+		timer2 = 1
 	}
 	if selected = 3 and global.selectbuttonpressed{
-		control = 0
-			menu = 4
-			selected = 0
-			letter = Obj_title.menukey
-			timer2 = 1
+		control = 3
+		menu = 4
+		selected = 0
+		letter = Obj_title.menukey
+		timer2 = 1
 	}
 	if selected = 4 and global.selectbuttonpressed{
-		control = 0
-			menu = 4
-			selected = 0
-			letter = Obj_title.upkey
-			timer2 = 1
+		control = 4
+		menu = 4
+		selected = 0
+		letter = Obj_title.upkey
+		timer2 = 1
 	}
 	if selected = 5 and global.selectbuttonpressed{
-		control = 0
-			menu = 4
-			selected = 0
-			letter = Obj_title.downkey
-			timer2 = 1
+		control = 5
+		menu = 4
+		selected = 0
+		letter = Obj_title.downkey
+		timer2 = 1
 	}
 	if selected = 6 and global.selectbuttonpressed{
-		control = 0
-			menu = 4
-			selected = 0
-			letter = Obj_title.leftkey
-			timer2 = 1
+		control = 6
+		menu = 4
+		selected = 0
+		letter = Obj_title.leftkey
+		timer2 = 1
 	}
 	if selected = 7 and global.selectbuttonpressed{
-		control = 0
-			menu = 4
-			selected = 0
-			letter = Obj_title.rightkey
-			timer2 = 1
+		control = 7
+		menu = 4
+		selected = 0
+		letter = Obj_title.rightkey
+		timer2 = 1
 	}
 	if keyboard_check_pressed(global.cancelbutton){
 		menu = 2
@@ -186,7 +185,47 @@ if menu = 4 and timer2 <= 0 {
 	if selected = 25 and global.selectbuttonpressed{
 		letter = "Z"
 	}
-	
+	if control = 0{
+		ini_open("controls.ini")
+		ini_write_string("Save", "Select", letter)
+	}
+	if control = 1{
+		ini_open("controls.ini")
+		ini_write_string("Save", "Cancel", letter)
+	}
+	if control = 2{
+		ini_open("controls.ini")
+		ini_write_string("Save", "Sprint", letter)
+	}
+	if control = 3{
+		ini_open("controls.ini")
+		ini_write_string("Save", "Menu", letter)
+	}
+	if control = 4{
+		ini_open("controls.ini")
+		ini_write_string("Save", "Up", letter)
+	}
+	if control = 5{
+		ini_open("controls.ini")
+		ini_write_string("Save", "Down", letter)
+	}
+	if control = 6{
+		ini_open("controls.ini")
+		ini_write_string("Save", "Left", letter)
+	}
+	if control = 7{
+		ini_open("controls.ini")
+		ini_write_string("Save", "Right", letter)
+	}
+	Scr_update_controls()
+	if keyboard_check_pressed(global.cancelbutton){
+		menu = 3
+		selected = 0
+	}
+}
+
+if menu = 4{
+	timer2 --
 }
 
 //controls
