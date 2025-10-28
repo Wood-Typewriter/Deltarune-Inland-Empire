@@ -100,6 +100,7 @@
     {"id":{"name":"Spr_fade","path":"sprites/Spr_fade/Spr_fade.yy",},},
     {"id":{"name":"Spr_Flower_king_TRUCK","path":"sprites/Spr_Flower_king_TRUCK/Spr_Flower_king_TRUCK.yy",},},
     {"id":{"name":"Spr_Flower_king","path":"sprites/Spr_Flower_king/Spr_Flower_king.yy",},},
+    {"id":{"name":"Spr_gate","path":"sprites/Spr_gate/Spr_gate.yy",},},
     {"id":{"name":"Spr_Home_bathroom","path":"sprites/Spr_Home_bathroom/Spr_Home_bathroom.yy",},},
     {"id":{"name":"Spr_Home_exterior","path":"sprites/Spr_Home_exterior/Spr_Home_exterior.yy",},},
     {"id":{"name":"Spr_Home_hall","path":"sprites/Spr_Home_hall/Spr_Home_hall.yy",},},
