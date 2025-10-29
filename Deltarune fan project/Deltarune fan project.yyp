@@ -80,6 +80,7 @@
     {"id":{"name":"rm_Hometown_street_1","path":"rooms/rm_Hometown_street_1/rm_Hometown_street_1.yy",},},
     {"id":{"name":"rm_Kris_Asrial_room","path":"rooms/rm_Kris_Asrial_room/rm_Kris_Asrial_room.yy",},},
     {"id":{"name":"rm_Main_room","path":"rooms/rm_Main_room/rm_Main_room.yy",},},
+    {"id":{"name":"rm_pond","path":"rooms/rm_pond/rm_pond.yy",},},
     {"id":{"name":"rm_Title","path":"rooms/rm_Title/rm_Title.yy",},},
     {"id":{"name":"Scr_party","path":"scripts/Scr_party/Scr_party.yy",},},
     {"id":{"name":"Scr_update_controls","path":"scripts/Scr_update_controls/Scr_update_controls.yy",},},
@@ -89,6 +90,7 @@
     {"id":{"name":"Spr_buttons_continue","path":"sprites/Spr_buttons_continue/Spr_buttons_continue.yy",},},
     {"id":{"name":"Spr_buttons","path":"sprites/Spr_buttons/Spr_buttons.yy",},},
     {"id":{"name":"Spr_Cage_static","path":"sprites/Spr_Cage_static/Spr_Cage_static.yy",},},
+    {"id":{"name":"Spr_Car_gate","path":"sprites/Spr_Car_gate/Spr_Car_gate.yy",},},
     {"id":{"name":"Spr_cattie_house","path":"sprites/Spr_cattie_house/Spr_cattie_house.yy",},},
     {"id":{"name":"Spr_character_proto_1","path":"sprites/Spr_character_proto_1/Spr_character_proto_1.yy",},},
     {"id":{"name":"Spr_character_proto","path":"sprites/Spr_character_proto/Spr_character_proto.yy",},},
@@ -156,6 +158,7 @@
     {"roomId":{"name":"rm_dev_test_room","path":"rooms/rm_dev_test_room/rm_dev_test_room.yy",},},
     {"children":[],"groupName":"non save rooms",},
     {"roomId":{"name":"rm_Big_test_room","path":"rooms/rm_Big_test_room/rm_Big_test_room.yy",},},
+    {"roomId":{"name":"rm_pond","path":"rooms/rm_pond/rm_pond.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[
