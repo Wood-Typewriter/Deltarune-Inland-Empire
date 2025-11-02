@@ -1,7 +1,7 @@
-target_x = 596
-target_y = 170
+target_x = 592
+target_y = 165
 target_room = rm_Main_room
-facing = 0
+facing = 1
 //numbers relating on direction player faces on warp
 //0 = right 
 //1 = left 

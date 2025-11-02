@@ -1,0 +1,1 @@
+audio_play_sound( Sng_hometown, 4, true);
