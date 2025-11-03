@@ -1,0 +1,26 @@
+{
+  "$GMSound":"v2",
+  "%Name":"Sng_town_day",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "channelFormat":1,
+  "compression":3,
+  "compressionQuality":4,
+  "conversionMode":0,
+  "duration":139.04762,
+  "exportDir":"",
+  "name":"Sng_town_day",
+  "parent":{
+    "name":"Sounds",
+    "path":"folders/Sounds.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":48000,
+  "soundFile":"Sng_town_day.ogg",
+  "volume":1.0,
+}
