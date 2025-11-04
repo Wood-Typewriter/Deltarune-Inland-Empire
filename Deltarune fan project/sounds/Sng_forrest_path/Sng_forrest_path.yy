@@ -6,11 +6,11 @@
     "path":"audiogroups/audiogroup_default",
   },
   "bitDepth":1,
-  "channelFormat":0,
-  "compression":0,
+  "channelFormat":1,
+  "compression":3,
   "compressionQuality":4,
   "conversionMode":0,
-  "duration":0.0,
+  "duration":77.315445,
   "exportDir":"",
   "name":"Sng_forrest_path",
   "parent":{
@@ -21,6 +21,6 @@
   "resourceType":"GMSound",
   "resourceVersion":"2.0",
   "sampleRate":44100,
-  "soundFile":"",
+  "soundFile":"Sng_forrest_path.ogg",
   "volume":1.0,
 }

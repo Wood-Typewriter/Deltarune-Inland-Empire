@@ -13,8 +13,8 @@ if songAsset != targetSongAsset{
 		songInstance = noone;
 		songAsset = noone;
 	}
-	//play, if old is gone
-	if array_length(fadeOutInstances) == 0{	
+	//play, if old is gone or if it supposed to overlap
+	if array_length(fadeOutInstances) == 0 || songOverlap == true{	
 		if audio_exists(targetSongAsset){
 			// play song and store instance
 			songInstance = audio_play_sound(targetSongAsset, 4, true);
@@ -24,6 +24,7 @@ if songAsset != targetSongAsset{
 		}
 		//set song asset to mach target song asset
 		songAsset = targetSongAsset;
+		songOverlap = false;
 	}
 }
 //volume control
