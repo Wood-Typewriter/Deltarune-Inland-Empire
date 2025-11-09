@@ -37,5 +37,5 @@
     "path":"sprites/Spr_music_trigger/Spr_music_trigger.yy",
   },
   "spriteMaskId":null,
-  "visible":true,
+  "visible":false,
 }

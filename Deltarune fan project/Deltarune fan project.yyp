@@ -91,6 +91,7 @@
     {"id":{"name":"Scr_update_controls","path":"scripts/Scr_update_controls/Scr_update_controls.yy",},},
     {"id":{"name":"Sng_forrest_path","path":"sounds/Sng_forrest_path/Sng_forrest_path.yy",},},
     {"id":{"name":"Sng_hometown","path":"sounds/Sng_hometown/Sng_hometown.yy",},},
+    {"id":{"name":"Sng_title","path":"sounds/Sng_title/Sng_title.yy",},},
     {"id":{"name":"Sng_town_day","path":"sounds/Sng_town_day/Sng_town_day.yy",},},
     {"id":{"name":"Sng_town","path":"sounds/Sng_town/Sng_town.yy",},},
     {"id":{"name":"hometown","path":"sprites/hometown/hometown.yy",},},
