@@ -1,6 +1,6 @@
 {
   "$GMSound":"v2",
-  "%Name":"Sng_town",
+  "%Name":"vc_text",
   "audioGroupId":{
     "name":"audiogroup_default",
     "path":"audiogroups/audiogroup_default",
@@ -10,17 +10,17 @@
   "compression":3,
   "compressionQuality":4,
   "conversionMode":0,
-  "duration":113.14286,
+  "duration":1.7142857,
   "exportDir":"",
-  "name":"Sng_town",
+  "name":"vc_text",
   "parent":{
-    "name":"music",
-    "path":"folders/Sounds/music.yy",
+    "name":"Sfx",
+    "path":"folders/Sounds/Sfx.yy",
   },
   "preload":false,
   "resourceType":"GMSound",
   "resourceVersion":"2.0",
   "sampleRate":44100,
-  "soundFile":"Sng_town.ogg",
+  "soundFile":"vc_text.ogg",
   "volume":1.0,
 }
