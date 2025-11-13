@@ -108,9 +108,10 @@ if global.party_exists = true{
 	
 	}
 }
-with(mControl){
+with(Obj_mControl){
 	registerControl("title", true);
-	registerControl("player", false);
-	registerControl("dialogue", false);
+	registerControl("Player", false);
+	registerControl("Dialogue", false);
 }
-layer_depth(layer_get_id("Dialogue"), -999)
+//come back to this if needed pt.10
+//layer_depth(layer_get_id("Dialogue"), -999)

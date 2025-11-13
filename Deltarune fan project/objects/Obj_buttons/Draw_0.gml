@@ -37,7 +37,7 @@ if menu = 2 {
 	}
 	draw_text(x, y, "Controls")
 }
-
+//gotta rework this, updated font messed this up, resize would work
 if menu = 3{
 	if selected = 0 {
 		draw_set_color(#FFFF00)

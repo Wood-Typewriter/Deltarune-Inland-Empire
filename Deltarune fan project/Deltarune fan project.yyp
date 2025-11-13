@@ -68,6 +68,7 @@
     {"id":{"name":"Obj_Dlg","path":"objects/Obj_Dlg/Obj_Dlg.yy",},},
     {"id":{"name":"Obj_dual_input_checker","path":"objects/Obj_dual_input_checker/Obj_dual_input_checker.yy",},},
     {"id":{"name":"Obj_fade","path":"objects/Obj_fade/Obj_fade.yy",},},
+    {"id":{"name":"Obj_interact","path":"objects/Obj_interact/Obj_interact.yy",},},
     {"id":{"name":"Obj_mControl","path":"objects/Obj_mControl/Obj_mControl.yy",},},
     {"id":{"name":"Obj_mSfx","path":"objects/Obj_mSfx/Obj_mSfx.yy",},},
     {"id":{"name":"Obj_music_box","path":"objects/Obj_music_box/Obj_music_box.yy",},},

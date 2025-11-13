@@ -1036,7 +1036,7 @@ switch (dlg_pos_preset) {
 				box_y = (240-box_height);
 				break;
 			case dlg_darkworld:
-				box_y = (240-box_height)+4;
+				box_y = (240-box_height);
 				break;
 		}
 		break;
