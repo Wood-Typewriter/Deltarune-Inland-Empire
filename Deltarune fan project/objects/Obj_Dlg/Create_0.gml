@@ -545,7 +545,7 @@ dialogue_sprite   = dlg_darkworld;
 box_visible       = true;
 char_visible      = true;
 current_sound     = vc_text;
-default_font = fnt_dialogue;
+default_font = Fnt_main;
 
 base_char_w = 58;
 base_char_h = 58;

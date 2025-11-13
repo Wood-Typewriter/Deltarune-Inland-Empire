@@ -1,31 +1,26 @@
 //controls
-var up_key = global.upbuttonpressed
-var down_key = global.downbuttonpressed
-var left_key = global.leftbuttonpressed
-var right_key = global.rightbuttonpressed
-
-//movement
-if keyboard_check(vk_shift) or keyboard_check(ord("X")){
-	move_speed = run_speed
-} else{
-	move_speed = walk_speed
-}
-
-xspeed = (right_key - left_key) * move_speed
-yspeed = (down_key - up_key) * move_speed
+var cEnabled = Obj_mControl.isControlEnabled("player")
+var up = global.upbuttonpressed && cEnabled
+var down = global.downbuttonpressed && cEnabled
+var left = global.leftbuttonpressed && cEnabled
+var right = global.rightbuttonpressed && cEnabled
+var sprint = global.selectbuttonpressed && cEnabled
+var tap = (
+	( global.upbuttonpressed1 || global.downbuttonpressed1 ||
+	  global.leftbuttonpressed1 || global.rightbuttonpressed1)
+	  &&
+	  !(up || down || left || right) && cEnabled);
+var select = global.selectbuttonpressed && cEnabled;
+move_speed = sprint ? run_speed : walk_speed;
+xspeed = (right - left) * move_speed;
+yspeed = (down - up) * move_speed;
 
 //collision
-
 if place_meeting(x + xspeed, y, Obj_collider){
-
 	xspeed = 0
-	
 }
-
 if place_meeting(x, y + yspeed, Obj_collider){
-	
 	yspeed = 0
-	
 }
 
 x += xspeed

@@ -16,6 +16,8 @@ if menu = 1{
 	if(selected = 0 and global.selectbuttonpressed){
 
 		room_goto(global.start_room)
+		Obj_mControl.enableControl("Player")
+		Obj_mControl.disableControl("title")
 		var instantiated = instance_create_layer(global.start_x, global.start_y, "Player", Obj_player_L)
 		global.new_game = false	
 	}
